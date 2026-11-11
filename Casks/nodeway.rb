@@ -1,6 +1,6 @@
 cask "nodeway" do
-  version "0.2.17"
-  sha256 "b0c1e6db25e6829373af57f5488fa800a72edfa350a3f920bea357d848d5a252"
+  version "0.2.18"
+  sha256 "143abc447e07aa27b4a05f1f5df60aa57c1069ca745dc45af8d800bfa7d62ab8"
 
   url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg"
   name "Nodeway"
@@ -14,6 +14,7 @@ cask "nodeway" do
     end
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :ventura
 
