@@ -2,8 +2,7 @@ cask "nodeway" do
   version "0.2.17"
   sha256 "b0c1e6db25e6829373af57f5488fa800a72edfa350a3f920bea357d848d5a252"
 
-  url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg",
-      verified: "github.com/ameer2468/nodeway-releases/"
+  url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg"
   name "Nodeway"
   desc "See how any codebase fits together"
   homepage "https://nodeway.app/"
@@ -16,14 +15,13 @@ cask "nodeway" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Nodeway.app"
 
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Nodeway.app"],
-                   sudo: false
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Nodeway.app"]
   end
 
   zap trash: [
