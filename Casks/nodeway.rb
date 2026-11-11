@@ -1,6 +1,6 @@
 cask "nodeway" do
-  version "0.2.20"
-  sha256 "27430d66004dcdf6a607a24d630d1955377ad9c11bade4610dac87751b0ef74e"
+  version "0.2.21"
+  sha256 "b920acb6ca5e61573e5b20b5cbaaf2dcca9848b1b659d22ce3599c1f481b803c"
 
   url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg"
   name "Nodeway"
