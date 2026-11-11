@@ -1,9 +1,9 @@
-# Nodeway for Homebrew
+# ameer2468/tap
 
-[Nodeway](https://nodeway.app) maps how a codebase fits together.
+Homebrew tap for [Nodeway](https://nodeway.app), which maps how a codebase fits together.
 
 ```bash
-brew install ameer2468/nodeway/nodeway
+brew install ameer2468/tap/nodeway
 ```
 
 Update with `brew upgrade nodeway`, or from inside the app. Remove with `brew uninstall nodeway`; add `--zap` to also delete your maps and settings.
