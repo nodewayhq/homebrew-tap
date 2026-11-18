@@ -1,6 +1,6 @@
 cask "nodeway" do
-  version "0.2.41"
-  sha256 "b577fcc559fecc1ed394bf69a68a3f73bdec872c6f600c263512e2ba0dc28012"
+  version "0.2.42"
+  sha256 "84b90416f8fbe26b5c8c81ee72f337ee4d3b805da705200910047c57aaf48bcf"
 
   url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg"
   name "Nodeway"
@@ -19,11 +19,6 @@ cask "nodeway" do
   depends_on macos: :ventura
 
   app "Nodeway.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Nodeway.app"]
-  end
 
   zap trash: [
     "~/.codebase-atlas",
