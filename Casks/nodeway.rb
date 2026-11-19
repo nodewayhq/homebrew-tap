@@ -1,6 +1,6 @@
 cask "nodeway" do
-  version "0.2.47"
-  sha256 "a6f11312f93d776f338eaba169d1137500e321092c78057ce4212f0497b293fd"
+  version "0.2.48"
+  sha256 "b0012f84cf3b72c2f9c168dcae001e86cc361c25a3998898ce3a4b2c289a09c4"
 
   url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg"
   name "Nodeway"
@@ -27,3 +27,4 @@ cask "nodeway" do
     "~/Library/Saved Application State/com.codebaseatlas.app.savedState",
   ]
 end
+
