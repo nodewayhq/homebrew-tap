@@ -2,7 +2,7 @@ cask "nodeway" do
   version "0.2.54"
   sha256 "1ff8df73882c9f53d8bed2a4be3b21290edbcbfd58da32bfb1cb50fe462d3be0"
 
-  url "https://github.com/ameer2468/nodeway-releases/releases/download/v#{version}/Nodeway-#{version}-arm64.dmg"
+  url "https://nodeway.app/download/mac?v=#{version}"
   name "Nodeway"
   desc "See how any codebase fits together"
   homepage "https://nodeway.app/"
