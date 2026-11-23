@@ -1,6 +1,6 @@
 cask "nodeway" do
-  version "0.2.60"
-  sha256 "3f02e8da0bdbd9f6dee678e9896735511f8c3b2424d8eb70fb4b6edff8083c76"
+  version "0.2.61"
+  sha256 "7a37c477f30e6483ff4a7057a02574d518f2d4367169ccb7fcfba307d6b87084"
 
   url "https://nodeway.app/download/mac?v=#{version}"
   name "Nodeway"
