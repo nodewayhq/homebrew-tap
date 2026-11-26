@@ -1,8 +1,8 @@
 cask "nodeway" do
   arch arm: "mac", intel: "mac-x64"
 
-  version "0.2.70"
-  sha256 arm: "65a04703fe2a99a9fc318e04cd3f8c7b0bc405a399b3816ca5095678514a1057", intel: "830b8874b1a453f00fcec275305a6b263e1a034eb7cd8bda47a6c44deea51dab"
+  version "0.2.71"
+  sha256 arm: "34459d10f2a2f00e210f9bba99636519e2c1dda6bd64573c53ea3ba3b47f9155", intel: "6cb83bd30991881703a29e08ef39c7712f546fb9a201fd29e67672176c748ec4"
 
   url "https://nodeway.app/download/#{arch}?v=#{version}"
   name "Nodeway"
